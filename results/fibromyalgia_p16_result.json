@@ -1,0 +1,230 @@
+{
+  "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE221921",
+  "raw_tar_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221921/suppl/GSE221921_RAW.tar",
+  "raw_tar_sha256": "79ff6dcbebcbbb50202b86996f5c5f95ab30b483a62044e0cca85b5402c9b795",
+  "deposited_scale": "nonnegative apparently logged abundance despite processing note about TPM/TMM; no second transform",
+  "n_fm": 96,
+  "n_control": 93,
+  "rows_raw": 21915,
+  "duplicate_symbol_rows": 588,
+  "duplicate_symbols": 48,
+  "unique_gene_rows": 21327,
+  "frozen": [
+    {
+      "gene": "CPA3",
+      "measured": true,
+      "duplicate_in_deposit": false,
+      "g": 0.43392454755979154,
+      "se": 0.14719876999794532,
+      "normal_95_CI": [
+        0.14541495836381874,
+        0.7224341367557643
+      ],
+      "welch_p": 0.003032189431390121,
+      "direction": "up",
+      "mean_fm": 0.9520621540716125,
+      "mean_control": 0.7130617249214177
+    },
+    {
+      "gene": "GCSAML",
+      "measured": true,
+      "duplicate_in_deposit": false,
+      "g": 0.6252573143344997,
+      "se": 0.14900874266955094,
+      "normal_95_CI": [
+        0.3332001787021799,
+        0.9173144499668195
+      ],
+      "welch_p": 2.4645668154042434e-05,
+      "direction": "up",
+      "mean_fm": 0.5140952304568707,
+      "mean_control": 0.27159572772370477
+    },
+    {
+      "gene": "MS4A2",
+      "measured": true,
+      "duplicate_in_deposit": false,
+      "g": 0.6835820300501764,
+      "se": 0.14968485873139797,
+      "normal_95_CI": [
+        0.39019970693663636,
+        0.9769643531637164
+      ],
+      "welch_p": 4.4396775453976474e-06,
+      "direction": "up",
+      "mean_fm": 0.6702700951351522,
+      "mean_control": 0.3418904277926524
+    },
+    {
+      "gene": "FCER1A",
+      "measured": true,
+      "duplicate_in_deposit": false,
+      "g": 0.5213833883314869,
+      "se": 0.14794765954454886,
+      "normal_95_CI": [
+        0.23140597562417115,
+        0.8113608010388027
+      ],
+      "welch_p": 0.00039286084038704487,
+      "direction": "up",
+      "mean_fm": 1.2145165884582263,
+      "mean_control": 0.9257865828100964
+    },
+    {
+      "gene": "ITGB8",
+      "measured": true,
+      "duplicate_in_deposit": false,
+      "g": 0.6921317416080202,
+      "se": 0.14978876199160537,
+      "normal_95_CI": [
+        0.3985457681044736,
+        0.9857177151115667
+      ],
+      "welch_p": 3.41390490694349e-06,
+      "direction": "up",
+      "mean_fm": 0.8279326561400692,
+      "mean_control": 0.4696916810936247
+    },
+    {
+      "gene": "UQCC3",
+      "measured": false,
+      "duplicate_in_deposit": false
+    },
+    {
+      "gene": "HDC",
+      "measured": true,
+      "duplicate_in_deposit": false,
+      "g": 0.2343087667009706,
+      "se": 0.14599518662052846,
+      "normal_95_CI": [
+        -0.05184179907526518,
+        0.5204593324772063
+      ],
+      "welch_p": 0.1067254388387571,
+      "direction": "up",
+      "mean_fm": 1.1362313409351714,
+      "mean_control": 1.0154326337379571
+    },
+    {
+      "gene": "GATA2",
+      "measured": true,
+      "duplicate_in_deposit": false,
+      "g": 0.09676345997182892,
+      "se": 0.1455820219747953,
+      "normal_95_CI": [
+        -0.18857730309876988,
+        0.38210422304242775
+      ],
+      "welch_p": 0.5040214041177005,
+      "direction": "up",
+      "mean_fm": 1.032800934409244,
+      "mean_control": 0.9915342711498182
+    }
+  ],
+  "null": {
+    "seed": 20260925,
+    "draws": 10000,
+    "universe": "unique-row measured genes with GSE67311 discovery mu<0, excluding eight targets",
+    "universe_size": 8031,
+    "observed_down": 0,
+    "measured_frozen": 7,
+    "null_mean_down": 0.5204,
+    "p_ge_observed": 1.0,
+    "limitations": "Same discovery direction and coverage but not expression/variance matched; gene-gene correlation and cell composition not controlled; post-selection exploratory diagnostics."
+  },
+  "descriptive_threshold_pass": false,
+  "post_outcome_sex_sensitivity": [
+    {
+      "gene": "CPA3",
+      "female_n_fm": 91,
+      "female_n_control": 41,
+      "female_g": 0.33406066726084194,
+      "female_welch_p": 0.04575930630662117,
+      "sex_adjusted_beta_FM": 0.16481812492012393,
+      "sex_adjusted_robust_p": 0.06318987076549053,
+      "sex_adjusted_95_CI": [
+        -0.009058690133404629,
+        0.3386949399736525
+      ]
+    },
+    {
+      "gene": "GCSAML",
+      "female_n_fm": 91,
+      "female_n_control": 41,
+      "female_g": 0.6234334100650912,
+      "female_welch_p": 7.403687427351168e-05,
+      "sex_adjusted_beta_FM": 0.23614728991328696,
+      "sex_adjusted_robust_p": 0.00013694860935788876,
+      "sex_adjusted_95_CI": [
+        0.114782088835867,
+        0.3575124909907069
+      ]
+    },
+    {
+      "gene": "MS4A2",
+      "female_n_fm": 91,
+      "female_n_control": 41,
+      "female_g": 0.5809899751260114,
+      "female_welch_p": 0.0008248431721236035,
+      "sex_adjusted_beta_FM": 0.2806892136831555,
+      "sex_adjusted_robust_p": 0.001090044742001268,
+      "sex_adjusted_95_CI": [
+        0.11225428412016314,
+        0.4491241432461479
+      ]
+    },
+    {
+      "gene": "FCER1A",
+      "female_n_fm": 91,
+      "female_n_control": 41,
+      "female_g": 0.5085295622572679,
+      "female_welch_p": 0.0021365228065820066,
+      "sex_adjusted_beta_FM": 0.30407287382916326,
+      "sex_adjusted_robust_p": 0.0005829870083663316,
+      "sex_adjusted_95_CI": [
+        0.13079543482023395,
+        0.4773503128380926
+      ]
+    },
+    {
+      "gene": "ITGB8",
+      "female_n_fm": 91,
+      "female_n_control": 41,
+      "female_g": 0.628248561752257,
+      "female_welch_p": 0.00017047964998763188,
+      "sex_adjusted_beta_FM": 0.3117939670593241,
+      "sex_adjusted_robust_p": 0.00045192837713435715,
+      "sex_adjusted_95_CI": [
+        0.1375778826009697,
+        0.4860100515176785
+      ]
+    },
+    {
+      "gene": "HDC",
+      "female_n_fm": 91,
+      "female_n_control": 41,
+      "female_g": 0.2988981299524241,
+      "female_welch_p": 0.10978252431179415,
+      "sex_adjusted_beta_FM": 0.1380465944361148,
+      "sex_adjusted_robust_p": 0.15144280805220334,
+      "sex_adjusted_95_CI": [
+        -0.05057318255276569,
+        0.3266663714249953
+      ]
+    },
+    {
+      "gene": "GATA2",
+      "female_n_fm": 91,
+      "female_n_control": 41,
+      "female_g": 0.10592226028071128,
+      "female_welch_p": 0.557936269220823,
+      "sex_adjusted_beta_FM": -0.0013070737613393151,
+      "sex_adjusted_robust_p": 0.9864140660429663,
+      "sex_adjusted_95_CI": [
+        -0.15175207500251997,
+        0.14913792747984134
+      ]
+    }
+  ],
+  "independence_caveat": "Distinct GEO GSM, title, BioSample, SRA. No direct patient crosswalk with GSE67311; identifiers alone cannot guarantee participant independence. Published prior FM transcriptomic signatures; no novel clinical claim."
+}

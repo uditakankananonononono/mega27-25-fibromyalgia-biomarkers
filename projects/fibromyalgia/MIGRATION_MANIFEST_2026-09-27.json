@@ -1,0 +1,95 @@
+{
+  "schema": "migration-plan-v1",
+  "disease": "fibromyalgia",
+  "proposed_repo": "mega27-25-fibromyalgia-biomarkers",
+  "source_shared_repository": "uditakankananonononono/mega27-25-biomarkers-underserved-diseases",
+  "source_commit": "d2284557dc5c515cef9ffc13b7df774508b8211e",
+  "tracked_files": [
+    {
+      "shared_repo_path": "projects/fibromyalgia/NOVELTY_PLAN.md",
+      "sha256": "30c8c9a3c5060be4b5c1eb4f18f4a1f2efedcdf396a581fa770df0683a4f10ad",
+      "bytes": 2498
+    },
+    {
+      "shared_repo_path": "projects/fibromyalgia/README.md",
+      "sha256": "ccb139a3efd52ba78bc7ee317ac50ad2daa93ca51ea7e081768fc73dd532a8cc",
+      "bytes": 1796
+    },
+    {
+      "shared_repo_path": "results/fibromyalgia_p16_result.json",
+      "sha256": "bfe74d7a690b180a8ac57c59036269998a07999f53a40285661ae5b596316cc1",
+      "bytes": 6821
+    },
+    {
+      "shared_repo_path": "results/fibromyalgia_p16_sample_map.csv",
+      "sha256": "f9a56e4d65915c157c50b6680758300ad210ba2fd9cbe74fff3b961286d5d76f",
+      "bytes": 15137
+    },
+    {
+      "shared_repo_path": "results/label_audit/fibromyalgia__GSE269047.csv",
+      "sha256": "9715300df186ed7033b16fbba8bc9b70a0c6f8ce23d9f633fdb3b6830fa3a188",
+      "bytes": 381
+    },
+    {
+      "shared_repo_path": "results/label_audit/fibromyalgia__GSE67311.csv",
+      "sha256": "2f95bad8029baf046cea7c30153c5e0ec1abd812859867b7a4fb0cdfd8cfefe0",
+      "bytes": 313
+    },
+    {
+      "shared_repo_path": "results/meta_discovery/fibromyalgia.csv.gz",
+      "sha256": "2eccda3e27783b7a359f488e0cc2def1364f47fef1ccdec20fa9d7cf47f5976d",
+      "bytes": 277085
+    },
+    {
+      "shared_repo_path": "results/prio/benchmark_fibromyalgia.csv",
+      "sha256": "840fac2cf95dc8e319d5225474a3fc21ce2038e3e1a5ada741bcd1bac0103531",
+      "bytes": 4682
+    },
+    {
+      "shared_repo_path": "results/prio/benchmark_fibromyalgia_smoke.csv",
+      "sha256": "3afac150f4c7744490a53925f5ea244267f0d6ff152df5ed2b252eb3a1af0e43",
+      "bytes": 4682
+    },
+    {
+      "shared_repo_path": "results/prio/candidates_fibromyalgia.csv",
+      "sha256": "afbaaa7068057a9981d2c86ddc752cfb96cecca6392e3ce3e01385b91a7deb65",
+      "bytes": 373
+    },
+    {
+      "shared_repo_path": "results/series/fibromyalgia__GSE67311.csv.gz",
+      "sha256": "b668bb0095d0a0c994f1e5172d1079a12b3a5e0366ef18f5cd0b95c623c49b68",
+      "bytes": 188019
+    },
+    {
+      "shared_repo_path": "results/series/fibromyalgia__GSE67311.labels.csv",
+      "sha256": "5a508d163060be79897e4c323b693bc78f87e721298e435f8d91955748d3e69d",
+      "bytes": 2507
+    },
+    {
+      "shared_repo_path": "scripts/fibromyalgia_p16_figure.py",
+      "sha256": "21c6061294c8e198cd7daee73bc3d88f15436a60f215eb1d1690df96a214b1dd",
+      "bytes": 1300
+    },
+    {
+      "shared_repo_path": "scripts/fibromyalgia_p16_test.py",
+      "sha256": "e15580aa632b8dfb6fbce515b9a1628e912a475f5bf387f9460f7f0d732faeba",
+      "bytes": 6727
+    }
+  ],
+  "explicitly_excluded": [
+    "untracked files",
+    "modified tracked files not represented by source commit",
+    "other-disease results",
+    "shared manuscript until disease-specific content can be verified"
+  ],
+  "accession_manifest": {
+    "source": "results/dataset_manifest.csv",
+    "matching_rule": "disease string in role field, not proof of independent datasets",
+    "matching_record_count": 205,
+    "GSE_count": 3,
+    "GSM_count": 201,
+    "other_count": 1
+  },
+  "deployment_status": "planning_only_no_repos_verified",
+  "method": "copy and verify hashes from source_commit Git tree, not dirty working tree; preserve project-relative paths; pin shared core; then run project-specific tests and read back remote"
+}
